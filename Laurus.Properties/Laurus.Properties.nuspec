@@ -1,0 +1,17 @@
+<?xml version="1.0"?>
+<package >
+  <metadata>
+    <id>Laurus.Properties</id>
+    <version>$version$</version>
+    <title>$title$</title>
+    <authors>Nick Gamroth</authors>
+    <owners>Nick Gamroth</owners>
+    <licenseUrl>http://opensource.org/licenses/MIT</licenseUrl>
+    <projectUrl>https://github.com/thebeekeeper/Laurus.Properties</projectUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>Like Java .properties files, but for .NET</description>
+    <releaseNotes></releaseNotes>
+    <copyright>Copyright 2014</copyright>
+    <tags>properties args arguments settings</tags>
+  </metadata>
+</package>
