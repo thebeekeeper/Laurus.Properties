@@ -28,7 +28,7 @@ namespace Laurus.Properties
         private string GetPropertiesFile()
 		{
 			var f = Directory.GetFiles(Environment.CurrentDirectory).FirstOrDefault(n => n.EndsWith(".properties"));
-			if (f != string.Empty)
+			if (f != null)
 				return File.ReadAllText(f);
 			return string.Empty;
 		}

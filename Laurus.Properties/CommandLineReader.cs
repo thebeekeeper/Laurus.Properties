@@ -15,7 +15,7 @@ namespace Laurus.Properties
 			foreach (var a in args)
 			{
 				var kvp = a.Split('=');
-				d.Add(kvp[0], kvp[1]);
+				d.Add(kvp[0].Remove(0, 2), kvp[1]);
 			}
 			return d;
 		}
